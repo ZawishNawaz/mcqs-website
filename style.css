@@ -1,0 +1,53 @@
+/* nav elment size */
+.nav-item{
+    font-size: small;
+} 
+.navbar-nav .nav-link:hover {
+    background-color: green;
+    color: white !important;
+    text:bold;
+}
+
+.navbar-dark .navbar-brand:hover {
+    color: white !important;
+}
+/* for navbar elment font weight */
+.navbar-nav .nav-link {
+    font-weight: bold;
+    text:white;
+    color: white !important;
+}
+/* mcqs style */
+
+
+.mcq-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 700rem;
+    text-align: left;
+}
+
+.option {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+/* mcqs style close */

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">PakMcqs</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PRIVACY POLICY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PAKMCQS QUIZ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SUBMIT MCQS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LOGIN-MY ACCOUNT</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex ms-auto">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+<body>
+    <div class="mcq-container">
+        <div class="mcq" data-answer="Paris">
+            <h2>Question 1: What is the capital of France?</h2>
+            <form>
+                <div class="option">
+                    <input type="radio" id="paris1" name="question1" value="Paris">
+                    <label for="paris1">Paris</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="london1" name="question1" value="London">
+                    <label for="london1">London</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="rome1" name="question1" value="Rome">
+                    <label for="rome1">Rome</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="berlin1" name="question1" value="Berlin">
+                    <label for="berlin1">Berlin</label>
+                </div>
+            </form>
+            <p class="result"></p>
+        </div>
+        <div class="mcq" data-answer="Tokyo">
+            <h2>Question 2: What is the capital of Japan?</h2>
+            <form>
+                <div class="option">
+                    <input type="radio" id="tokyo2" name="question2" value="Tokyo">
+                    <label for="tokyo2">Tokyo</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="osaka2" name="question2" value="Osaka">
+                    <label for="osaka2">Osaka</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="kyoto2" name="question2" value="Kyoto">
+                    <label for="kyoto2">Kyoto</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="nagoya2" name="question2" value="Nagoya">
+                    <label for="nagoya2">Nagoya</label>
+                </div>
+            </form>
+            <p class="result"></p>
+        </div>
+        <button type="button" onclick="checkAnswers()">Submit All</button>
+    </div>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="
+script.js"></script>
+</body>
+  
+</html>
