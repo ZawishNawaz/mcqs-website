@@ -50,4 +50,13 @@ button:hover {
     margin-top: 20px;
     font-weight: bold;
 }
+@media (max-width: 600px) {
+    .mcq-container {
+        padding: 10px;
+    }
+
+    .mcq {
+        padding: 15px;
+    }
+}
 /* mcqs style close */
