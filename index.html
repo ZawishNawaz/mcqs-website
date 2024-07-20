@@ -5,6 +5,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Document</title>
 </head>
 
@@ -45,97 +46,59 @@
         </nav>
     </header>
 <body>
-    <div class="mcq-container">
-        <div class="mcq" data-answer="Paris">
-            <h2>Question 1: What is the capital of France?</h2>
-            <form>
-                <div class="option">
-                    <input type="radio" id="paris1" name="question1" value="Paris">
-                    <label for="paris1">Paris</label>
-                </div>
-                <div class="option">
-                    <input type="radio" id="london1" name="question1" value="London">
-                    <label for="london1">London</label>
-                </div>
-                <div class="option">
-                    <input type="radio" id="rome1" name="question1" value="Rome">
-                    <label for="rome1">Rome</label>
-                </div>
-                <div class="option">
-                    <input type="radio" id="berlin1" name="question1" value="Berlin">
-                    <label for="berlin1">Berlin</label>
-                </div>
-            </form>
+    
+<div class="container mcq-container">
+    <div class="mcq" data-answer="Paris">
+        <h2>Question 1: What is the capital of France?</h2>
+        <form>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="paris1" name="question1" value="Paris">
+                <label class="form-check-label" for="paris1">Paris</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="london1" name="question1" value="London">
+                <label class="form-check-label" for="london1">London</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="rome1" name="question1" value="Rome">
+                <label class="form-check-label" for="rome1">Rome</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="berlin1" name="question1" value="Berlin">
+                <label class="form-check-label" for="berlin1">Berlin</label>
+            </div>
             <p class="result"></p>
-        </div>
-        <div class="mcq" data-answer="Tokyo">
-            <h2>Question 2: What is the capital of Japan?</h2>
-            <form>
-                <div class="option">
-                    <input type="radio" id="tokyo2" name="question2" value="Tokyo">
-                    <label for="tokyo2">Tokyo</label>
-                </div>
-                <div class="option">
-                    <input type="radio" id="osaka2" name="question2" value="Osaka">
-                    <label for="osaka2">Osaka</label>
-                </div>
-                <div class="option">
-                    <input type="radio" id="kyoto2" name="question2" value="Kyoto">
-                    <label for="kyoto2">Kyoto</label>
-                </div>
-                <div class="option">
-                    <input type="radio" id="nagoya2" name="question2" value="Nagoya">
-                    <label for="nagoya2">Nagoya</label>
-                </div>
-            </form>
-            <p class="result"></p>
-        </div>
-        <div class="mcq" data-answer="Tokyo">
-            <h2>Question 2: What is the capital of Japan?</h2>
-            <form>
-                <div class="option">
-                    <input type="radio" id="tokyo2" name="question2" value="Tokyo">
-                    <label for="tokyo2">Tokyo</label>
-                </div>
-                <div class="option">
-                    <input type="radio" id="osaka2" name="question2" value="Osaka">
-                    <label for="osaka2">Osaka</label>
-                </div>
-                <div class="option">
-                    <input type="radio" id="kyoto2" name="question2" value="Kyoto">
-                    <label for="kyoto2">Kyoto</label>
-                </div>
-                <div class="option">
-                    <input type="radio" id="nagoya2" name="question2" value="Nagoya">
-                    <label for="nagoya2">Nagoya</label>
-                </div>
-            </form>
-            <p class="result"></p>
-        </div>
-        <div class="mcq" data-answer="Tokyo">
-            <h2>Question 2: What is the capital of Japan?</h2>
-            <form>
-                <div class="option">
-                    <input type="radio" id="tokyo2" name="question2" value="Tokyo">
-                    <label for="tokyo2">Tokyo</label>
-                </div>
-                <div class="option">
-                    <input type="radio" id="osaka2" name="question2" value="Osaka">
-                    <label for="osaka2">Osaka</label>
-                </div>
-                <div class="option">
-                    <input type="radio" id="kyoto2" name="question2" value="Kyoto">
-                    <label for="kyoto2">Kyoto</label>
-                </div>
-                <div class="option">
-                    <input type="radio" id="nagoya2" name="question2" value="Nagoya">
-                    <label for="nagoya2">Nagoya</label>
-                </div>
-            </form>
-            <p class="result"></p>
-        </div>
-        <button type="button" onclick="checkAnswers()">Submit All</button>
+        </form>
     </div>
+
+    <div class="mcq" data-answer="Tokyo">
+        <h2>Question 2: What is the capital of Japan?</h2>
+        <form>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="tokyo2" name="question2" value="Tokyo">
+                <label class="form-check-label" for="tokyo2">Tokyo</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="osaka2" name="question2" value="Osaka">
+                <label class="form-check-label" for="osaka2">Osaka</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="kyoto2" name="question2" value="Kyoto">
+                <label class="form-check-label" for="kyoto2">Kyoto</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="nagoya2" name="question2" value="Nagoya">
+                <label class="form-check-label" for="nagoya2">Nagoya</label>
+            </div>
+            <p class="result"></p>
+        </form>
+    </div>
+
+    <!-- Repeat for other questions -->
+
+    <button type="button" class="btn btn-primary" onclick="checkAnswers()">Submit All</button>
+</div>
+
     
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="
